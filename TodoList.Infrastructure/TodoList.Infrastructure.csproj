@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -21,6 +21,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TodoList.Core\TodoList.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="GenericRepository\Interface\" />
+    <Folder Include="GenericRepository\Service\" />
   </ItemGroup>
 
 </Project>
