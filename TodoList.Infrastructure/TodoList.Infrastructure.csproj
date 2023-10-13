@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="GenericRepository\Interface\" />
     <Folder Include="GenericRepository\Service\" />
   </ItemGroup>
 

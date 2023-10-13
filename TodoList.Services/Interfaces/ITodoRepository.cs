@@ -9,7 +9,7 @@ namespace TodoList.Services.Interfaces
 {
     public interface ITodoRepository
     {
-        Task<Todo> GetTodo(int id);
+        Task<Todo> GetTodo(int id, bool trackChanges);
         Task<List<Todo>> GetAll();
         Task CreateTodoList(Todo todo);
     }
